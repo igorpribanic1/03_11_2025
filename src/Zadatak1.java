@@ -30,10 +30,7 @@ public class Zadatak1 {
             }
         }
 
-        System.out.printf("Za uneseni tekst (" + korisnickiUnos + ") statistika korištenih znakova je:");
-        System.out.printf("\n\t Slova: " + slova);
-        System.out.printf("\n\t Brojevi: " + brojevi);
-        System.out.printf("\n\t Ostali znakovi: " + ostaliZnakovi);
+        System.out.printf("Za uneseni tekst (" + korisnickiUnos + ") statistika korištenih znakova je:\n\t Slova: " + slova + "\n\t Brojevi: " + brojevi + "\n\t Ostali znakovi: " + ostaliZnakovi);
 
     }
 }
