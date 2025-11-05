@@ -14,12 +14,12 @@ public class Zadatak2 {
             korisnickiUnos = sc.nextLine();
         }
 
-        String[] rijeci = korisnickiUnos.split("[\\s]");
+        String[] rijeci = korisnickiUnos.split("\\s+");
 
         for (int i = rijeci.length-1; i >= 0 ; i--) {
-            if(i > 0) {
+            if (i > 0) {
                 System.out.print(rijeci[i] + " ");
-            } else{
+            } else {
                 System.out.print(rijeci[i]);
             }
         }
